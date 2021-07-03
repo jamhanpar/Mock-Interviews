@@ -16,7 +16,6 @@ matrix = [
   [' ',' ',' ','K',' ',' ',' ',' '],
   [' ',' ',' ',' ',' ',' ',' ',' '],
   [' ',' ',' ',' ',' ',' ',' ',' '],
-  [' ',' ',' ',' ',' ',' ',' ',' '],
   [' ',' ',' ','Obj',' ',' ',' ',' '],
   [' ','Obj',' ',' ',' ',' ',' ',' '],
   [' ',' ',' ',' ',' ',' ',' ',' ']	
@@ -66,6 +65,8 @@ function checkPosAvailable(x, y, matrix, colorInput) {
   
   let results = [];
   
+  
+
   for (let i = 0; i < combo.length; i++) {
     // make code more readable
   	// matrix[combo[i][0][combo[i][1]] === ' '
